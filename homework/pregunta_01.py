@@ -3,7 +3,9 @@
 Escriba el codigo que ejecute la accion solicitada.
 """
 
-
+import matplotlib.pyplot as plt
+import pandas as pd
+import os
 def pregunta_01():
     """
     El archivo `files//shipping-data.csv` contiene información sobre los envios
@@ -35,3 +37,5 @@ def pregunta_01():
     * Su código debe crear la carpeta `docs` si no existe.
 
     """
+
+
